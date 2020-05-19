@@ -33,7 +33,7 @@ spec:
         tolerationSeconds: 120
       containers:
         - name: marketplace-operator
-          image: quay.io/openshift/origin-operator-marketplace:latest
+          image: quay.io/olmqe/marketplace-operator:cs
           ports:
           - containerPort: 60000
             name: metrics
